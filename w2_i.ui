@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>965</width>
+    <height>625</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>971</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>istockphoto-1449833741-612x612.webp</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>70</y>
+      <width>801</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 127); 
+border-radius: 35px;
+border: 1px solid rgba(255, 255, 255, 76); </string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>90</y>
+      <width>391</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(234, 234, 234);
+font: 22pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>DERIVATIVE FINDER</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>470</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #2741a6, stop:1 #e31858);
+    border-radius: 25px;
+	font-size: 16px;
+    color: white;
+    padding: 10px 20px;
+}
+
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #e31858, stop:1 #2741a6);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>SOLVE</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>250</y>
+      <width>381</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: #F0F0F0; /* Light grey background */
+    color: #2E2E2E; /* Dark grey text */
+    border: 2px solid #B0B0B0; /* Grey border */
+    border-top-left-radius: 10px; /* Rounded top-left corner */
+    border-top-right-radius: 10px; /* Rounded top-right corner */
+    border-bottom-left-radius: 10px; /* Flat bottom-left corner */
+    border-bottom-right-radius: 10px; /* Flat bottom-right corner */
+    padding: 5px; /* Padding inside the line edit */
+    font-size: 18px; /* Increase the font size for text */
+}
+
+QLineEdit:focus {
+    border: 2px solid #6A6A6A; /* Darker grey border when focused */
+    background-color: #E0E0E0; /* Slightly darker grey when focused */
+}
+
+QLineEdit::placeholder {
+    color: #A0A0A0; /* Placeholder text color */
+    font-size: 14px; /* Increase the placeholder text size */
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>enter equations in term of x</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>240</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(234, 234, 234);
+font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>y=</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>150</y>
+      <width>241</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(234, 234, 234);
+font: bold 16pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(234, 234, 234,0.4);
+border: 1px solid rgba(0,0,0); 
+border-radius:25px;</string>
+    </property>
+    <property name="text">
+     <string>Input Guidelines </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>240</y>
+      <width>621</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font:bold 10pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(234, 234, 234,0.8);
+padding:10px;
+border: 2px solid rgba(0,0,0); 
+border-radius:25px;</string>
+    </property>
+    <property name="text">
+     <string>Variable: Use x.
+Function Format: Enter functions in standard notation.
+Example: x**2 + 3*x + 2 (Quadratic)
+Example: exp(x) (Exponential)
+Example: sin(x), cos(x), tan(x) (Trigonometric)
+Operators:
+Use +, -, *, / for addition, subtraction, multiplication, and division.
+Use ^ or ** for exponentiation.
+Grouping: Use parentheses for clarity, e.g., (x + 1)**2.
+Special Functions:
+Use exp(x) for exponentials.
+Use log(x) for natural logarithms.
+Use log10(x) for base 10 logarithms.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_HOME">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 16px;
+    color: white;
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 0.3); 
+    border: 1px solid rgba(255, 255, 255, 0.5); 
+    transform: scale(0.95); 
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>[CITYPNG.COM]House Line White Icon - 500x500.png</normaloff>[CITYPNG.COM]House Line White Icon - 500x500.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
